@@ -1,5 +1,7 @@
 all: cv.pdf
 
+cv: cv.pdf
+
 cv.pdf: cv.tex
 	pdflatex cv.tex
 
