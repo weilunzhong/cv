@@ -1,4 +1,4 @@
-all: cv.pdf
+all: cv example
 
 cv: cv.pdf
 
