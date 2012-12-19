@@ -23,12 +23,11 @@ To clean up all generated and intermediate content, type:
 
 ## Pre-requistes for building
 
-Depending on your GNU/Linux distribution the package names may be different.  Basically,
-you need the `texlive` package, as well as whichever "extras" package contains the
+Depending on your GNU/Linux distribution the package names may be different.  Basically, you need the `texlive` package, as well as whichever "extras" package contains the
 moderncv stuff.
 
-On Arch Linux:
+__On Arch Linux:__
 
 	sudo pacman -Sy texlive-core texlive-latexextra
 
-Others: send a pull request with instructions for your distro.
+__Others:__ send a pull request with instructions for your distro.
