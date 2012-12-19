@@ -20,3 +20,15 @@ To "build" a PDF you simply type:
 To clean up all generated and intermediate content, type:
 
 	make clean
+
+## Pre-requistes for building
+
+Depending on your GNU/Linux distribution the package names may be different.  Basically,
+you need the `texlive` package, as well as whichever "extras" package contains the
+moderncv stuff.
+
+On Arch Linux:
+
+	sudo pacman -Sy texlive-core texlive-latexextra
+
+Others: send a pull request with instructions for your distro.
