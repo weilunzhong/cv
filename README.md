@@ -35,4 +35,8 @@ __On Arch Linux:__
 
 	sudo pacman -Sy texlive-core texlive-latexextra
 
+__On Fedora:__
+
+	sudo yum install texlive texlive-moderncv
+
 __Others:__ send a pull request with instructions for your distro.
