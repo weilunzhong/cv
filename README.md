@@ -39,4 +39,12 @@ __On Fedora:__
 
 	sudo yum install texlive texlive-moderncv
 
+
+__On Ubuntu:__
+
+     sudo add-apt-repository ppa:texlive-backports
+     sudo apt-get install texlive
+     sudo apt-get --no-install-recommends install texlive-latex-extra
+
+
 __Others:__ send a pull request with instructions for your distro.
