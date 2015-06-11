@@ -24,7 +24,7 @@ To clean up all generated and intermediate content, type:
 	$ make clean
 
 ### Pre-requistes for building
-Depending on your GNU/Linux distribution the package names may be different.  Basically, you need the `texlive` package, as well as whichever "extras" package contains the moderncv stuff.
+Depending on your GNU/Linux distribution the package names may be different. Basically, you need the `texlive` package, as well as whichever "extras" package contains the moderncv stuff.
 
 __On Arch Linux:__
 
@@ -34,12 +34,10 @@ __On Fedora:__
 
 	$ sudo yum install texlive texlive-moderncv
 
-
 __On Ubuntu:__
 
      $ sudo add-apt-repository ppa:texlive-backports
      $ sudo apt-get install texlive
      $ sudo apt-get --no-install-recommends install texlive-latex-extra
-
 
 __Others:__ send a pull request with instructions for your distro.
