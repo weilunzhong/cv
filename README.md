@@ -4,7 +4,7 @@ A CV written in LaTeX using the [moderncv](http://www.ctan.org/pkg/moderncv) cla
 ### Sample
 Here's what it looks like with real data, using the "classic" style and blue color scheme:
 
-![Image](https://raw.github.com/alanorth/cv/master/cv_sample.png)
+![Image](/cv_sample.png?raw=true "Sample CV")
 
 ### Why
 I decided to start keeping my CV in LaTeX because:
