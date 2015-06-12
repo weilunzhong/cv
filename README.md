@@ -40,4 +40,14 @@ __On Ubuntu:__
     $ sudo apt-get install texlive
     $ sudo apt-get --no-install-recommends install texlive-latex-extra
 
+__Mac OS X:__ download and install [BasicTeX](https://www.tug.org/mactex/morepackages.html) (a minimal TeXLive distribution) and then:
+
+    $ export PATH=$PATH:/usr/local/texlive/2014basic/bin/x86_64-darwin
+    $ sudo tlmgr install collection-fontsrecommended
+    $ wget https://launchpad.net/moderncv/trunk/1.5.1/+download/moderncv-1.5.1.zip
+    $ unzip moderncv-1.5.1.zip
+    $ sudo mkdir /usr/local/texlive/2014basic/texmf-local/tex/latex/moderncv
+    $ sudo cp moderncv/*.sty moderncv/*.cls /usr/local/texlive/2014basic/texmf-local/tex/latex/moderncv
+    $ sudo mktexlsr
+
 __Others:__ send a pull request with instructions for your distro.
