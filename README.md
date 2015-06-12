@@ -17,27 +17,27 @@ I decided to start keeping my CV in LaTeX because:
 ### Usage
 To "build" a PDF you simply type:
 
-	$ make
+    $ make
 
 To clean up all generated and intermediate content, type:
 
-	$ make clean
+    $ make clean
 
 ### Pre-requistes for building
 Depending on your GNU/Linux distribution the package names may be different. Basically, you need the `texlive` package, as well as whichever "extras" package contains the moderncv stuff.
 
 __On Arch Linux:__
 
-	$ sudo pacman -Sy texlive-core texlive-latexextra
+    $ sudo pacman -Sy texlive-core texlive-latexextra
 
 __On Fedora:__
 
-	$ sudo yum install texlive texlive-moderncv
+    $ sudo yum install texlive texlive-moderncv
 
 __On Ubuntu:__
 
-     $ sudo add-apt-repository ppa:texlive-backports
-     $ sudo apt-get install texlive
-     $ sudo apt-get --no-install-recommends install texlive-latex-extra
+    $ sudo add-apt-repository ppa:texlive-backports
+    $ sudo apt-get install texlive
+    $ sudo apt-get --no-install-recommends install texlive-latex-extra
 
 __Others:__ send a pull request with instructions for your distro.
