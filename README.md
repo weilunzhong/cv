@@ -46,7 +46,7 @@ __Mac OS X:__ download and install [BasicTeX](https://www.tug.org/mactex/morepac
     $ sudo tlmgr install collection-fontsrecommended
     $ wget https://launchpad.net/moderncv/trunk/1.5.1/+download/moderncv-1.5.1.zip
     $ unzip moderncv-1.5.1.zip
-    $ sudo mkdir /usr/local/texlive/2015basic/texmf-local/tex/latex/moderncv
+    $ sudo mkdir -p /usr/local/texlive/2015basic/texmf-local/tex/latex/moderncv
     $ sudo cp moderncv/*.sty moderncv/*.cls /usr/local/texlive/2015basic/texmf-local/tex/latex/moderncv
     $ sudo mktexlsr
 
