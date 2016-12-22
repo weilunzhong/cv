@@ -43,6 +43,7 @@ __On Ubuntu:__
 __Mac OS X:__ download and install [BasicTeX](https://www.tug.org/mactex/morepackages.html) (a minimal TeXLive distribution) and then:
 
     $ export PATH=$PATH:/usr/local/texlive/2016basic/bin/x86_64-darwin
+    $ sudo tlmgr update --self
     $ sudo tlmgr install collection-fontsrecommended
     $ wget https://launchpad.net/moderncv/trunk/1.5.1/+download/moderncv-1.5.1.zip
     $ unzip moderncv-1.5.1.zip
